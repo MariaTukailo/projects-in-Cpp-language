@@ -1,0 +1,5 @@
+﻿  Class.cpp
+  Main.cpp
+  Создание кода...
+C:\Users\user\Desktop\newLab\Class.cpp(120,1): warning C4172: возвращаемый адрес локальной переменной или временного : intersection
+  newLab.vcxproj -> C:\Users\user\Desktop\newLab\x64\Debug\newLab.exe
