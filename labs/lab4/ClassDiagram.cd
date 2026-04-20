@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Bird">
+    <Position X="23.5" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAgAAAgAAAAAAAAAAAAAABAAEACAAAAAAgAAABAAA=</HashCode>
+      <FileName>Bird.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ZooResindents">
+    <Position X="20.25" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAAAAAAACAQABAAAEAAAQAQBhQAQBBAA=</HashCode>
+      <FileName>ZooResidents.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Pretador">
+    <Position X="19.75" Y="11.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACAAAAAAAAAAAAABAAAAAABAAAAAAAAAAIgIAEBAAA=</HashCode>
+      <FileName>Pretador.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Mammal">
+    <Position X="17.75" Y="7.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAQAMAAAAAAAAACAAAAAERAAAAAAAAAIAgAAABCAA=</HashCode>
+      <FileName>Mammal.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Herbivore">
+    <Position X="16" Y="11.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAIgAAAAAAAACAAAAAABAAIAAAAEAAAgAAABAAA=</HashCode>
+      <FileName>Herbivore.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Ring&lt;T&gt;">
+    <Position X="15" Y="3.25" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Nested Types" Collapsed="false" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAQgAgAAAAEAAQAAAgCAAAAAAAAAEAAAAACQAI=</HashCode>
+      <FileName>Ring.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Struct Name="Node&lt;T&gt;">
+    <Position X="14.75" Y="7" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABQAAIAAAA=</HashCode>
+      <FileName>Ring.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
