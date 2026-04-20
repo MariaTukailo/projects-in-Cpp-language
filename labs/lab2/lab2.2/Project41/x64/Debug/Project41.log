@@ -1,0 +1,5 @@
+﻿  Main.cpp
+C:\Users\user\Desktop\лабораторная 2 часть 2\MyString.h(26,25): warning C4267: =: преобразование из "size_t" в "int"; возможна потеря данных
+  (компиляция исходного файла "Main.cpp")
+  
+  Project41.vcxproj -> C:\Users\user\Desktop\лабораторная 2 часть 2\x64\Debug\Project41.exe
