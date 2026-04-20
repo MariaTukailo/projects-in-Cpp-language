@@ -1,0 +1,11 @@
+﻿  Bird.cpp
+  Herbivore.cpp
+  Main.cpp
+  Mammal.cpp
+  Ring.cpp
+  ZooResidents.cpp
+  Создание кода...
+C:\Users\user\Desktop\laba6New\Ring.cpp(180,1): warning C4715: Ring<Pretador>::Get: значение возвращается не при всех путях выполнения
+C:\Users\user\Desktop\laba6New\Ring.cpp(180,1): warning C4715: Ring<Bird>::Get: значение возвращается не при всех путях выполнения
+C:\Users\user\Desktop\laba6New\Ring.cpp(180,1): warning C4715: Ring<Herbivore>::Get: значение возвращается не при всех путях выполнения
+  laba6New.vcxproj -> C:\Users\user\Desktop\laba6New\x64\Debug\laba6New.exe
