@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>ChoiceMode</class>
+ <widget class="QDialog" name="ChoiceMode">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1461</width>
+    <height>1005</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: lightbblack;</string>
+  </property>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>130</x>
+     <y>10</y>
+     <width>1161</width>
+     <height>261</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:32pt; font-weight:600; color:red;&quot;&gt;ВЫБЕРИТЕ РЕЖИМ &lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton">
+   <property name="geometry">
+    <rect>
+     <x>130</x>
+     <y>250</y>
+     <width>1171</width>
+     <height>211</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton {
+    background-color:  orange;
+    color: black;
+    font-weight: bold;        /* Жирный */
+    font-size: 30px;         /* Размер */
+    font-family: Arial;      /* Шрифт (опционально) */
+    border: 2px solid red;
+    border-radius: 5px;
+    padding: 10px;
+}
+QPushButton:hover {
+    background-color: #ff7705; /* Цвет при наведении */
+}
+
+QPushButton:pressed {
+    background-color: #ff7705;   /* Цвет при нажатии */
+}</string>
+   </property>
+   <property name="text">
+    <string>ПРОВЕРИТЬ ПРАВИЛЬНОСТЬ РАССТАНОВКИ ИЗВЕЩАТЕЛЕЙ</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_2">
+   <property name="geometry">
+    <rect>
+     <x>130</x>
+     <y>490</y>
+     <width>1171</width>
+     <height>211</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton {
+    background-color: orange;
+    color: black;
+    font-weight: bold;        /* Жирный */
+    font-size: 30px;         /* Размер */
+    font-family: Arial;      /* Шрифт (опционально) */
+    border: 2px solid red;
+    border-radius: 5px;
+    padding: 10px;
+}
+QPushButton:hover {
+    background-color: #ff7705; /* Цвет при наведении */
+}
+
+QPushButton:pressed {
+    background-color: #ff7705;   /* Цвет при нажатии */
+}</string>
+   </property>
+   <property name="text">
+    <string>РАССТАВИТЬ ПРАВИЛЬНО ИЗВЕЩАТЕЛИ</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_3">
+   <property name="geometry">
+    <rect>
+     <x>130</x>
+     <y>730</y>
+     <width>1171</width>
+     <height>211</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton {
+    background-color:  orange;
+    color: black;
+    font-weight: bold;        /* Жирный */
+    font-size: 30px;         /* Размер */
+    font-family: Arial;      /* Шрифт (опционально) */
+    border: 2px solid red;
+    border-radius: 5px;
+    padding: 10px;
+}
+QPushButton:hover {
+    background-color: #ff7705; /* Цвет при наведении */
+}
+
+QPushButton:pressed {
+    background-color: #ff7705;   /* Цвет при нажатии */
+}</string>
+   </property>
+   <property name="text">
+    <string>РАССЧИТАТЬ ВРЕМЯ СРАБАТЫВАНИЯ СИГНАЛИЗАЦИИ</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

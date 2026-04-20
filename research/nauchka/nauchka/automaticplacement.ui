@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>AutomaticPlacement</class>
+ <widget class="QDialog" name="AutomaticPlacement">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1431</width>
+    <height>863</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: lightbblack;</string>
+  </property>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>70</x>
+     <y>10</y>
+     <width>1301</width>
+     <height>211</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:12pt; font-weight:600; color:#ff0000;&quot;&gt;ПРАВИЛЬНАЯ ПОСТАНОВКА СИГНАЛИЗАЦИЙ&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_2">
+   <property name="geometry">
+    <rect>
+     <x>60</x>
+     <y>190</y>
+     <width>1311</width>
+     <height>661</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color:rgb(167, 167, 167)</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QRadioButton" name="DYM">
+   <property name="geometry">
+    <rect>
+     <x>700</x>
+     <y>240</y>
+     <width>651</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(125, 125, 125);
+
+    color: rgb(255, 85, 0);
+    font-size: 25px;
+    font-weight: bold;
+    font-family: Arial;</string>
+   </property>
+   <property name="text">
+    <string>ДЫМОВОЙ</string>
+   </property>
+  </widget>
+  <widget class="QRadioButton" name="Teplovoy">
+   <property name="geometry">
+    <rect>
+     <x>700</x>
+     <y>310</y>
+     <width>651</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(125, 125, 125);
+
+    color: rgb(255, 85, 0);
+    font-size: 25px;
+    font-weight: bold;
+    font-family: Arial;</string>
+   </property>
+   <property name="text">
+    <string>ТЕПЛОВОЙ</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_3">
+   <property name="geometry">
+    <rect>
+     <x>100</x>
+     <y>230</y>
+     <width>551</width>
+     <height>131</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color:rgb(125, 125, 125);</string>
+   </property>
+   <property name="text">
+    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:12pt; font-weight:600; color:#ff5500;&quot;&gt;Выберите тип извещателя:&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_5">
+   <property name="geometry">
+    <rect>
+     <x>100</x>
+     <y>380</y>
+     <width>181</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color:rgb(125, 125, 125);</string>
+   </property>
+   <property name="text">
+    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:7pt; font-weight:600; color:#ff5500;&quot;&gt;Количество:&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_6">
+   <property name="geometry">
+    <rect>
+     <x>100</x>
+     <y>520</y>
+     <width>1251</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color:rgb(125, 125, 125);</string>
+   </property>
+   <property name="text">
+    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:12pt; font-weight:600; color:#ff5500;&quot;&gt;Координаты:&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+   </property>
+  </widget>
+  <widget class="QWidget" name="coordinatesWidget" native="true">
+   <property name="geometry">
+    <rect>
+     <x>100</x>
+     <y>590</y>
+     <width>1251</width>
+     <height>231</height>
+    </rect>
+   </property>
+   <property name="toolTipDuration">
+    <number>-2</number>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: white;
+</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="doneButton">
+   <property name="geometry">
+    <rect>
+     <x>300</x>
+     <y>380</y>
+     <width>551</width>
+     <height>131</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton {
+    background-color: green;
+    color: black;
+    font-weight: bold;        /* Жирный */
+    font-size: 20px;         /* Размер */
+    font-family: Arial;      /* Шрифт (опционально) */
+    border: 2px solid green;
+    border-radius: 5px;
+    padding: 10px;
+}
+QPushButton:hover {
+    background-color: rgb(54, 102, 46)/* Цвет при наведении */
+}
+
+QPushButton:pressed {
+    background-color:rgb(54, 102, 46);   /* Цвет при нажатии */
+}</string>
+   </property>
+   <property name="text">
+    <string>РАССТАВИТЬ ИЗВЕЩАТЕЛИ</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="doneButton_2">
+   <property name="geometry">
+    <rect>
+     <x>870</x>
+     <y>380</y>
+     <width>481</width>
+     <height>131</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton {
+    background-color: red;
+    color: black;
+    font-weight: bold;        /* Жирный */
+    font-size: 20px;         /* Размер */
+    font-family: Arial;      /* Шрифт (опционально) */
+    border: 2px solid red;
+    border-radius: 5px;
+    padding: 10px;
+}
+QPushButton:hover {
+    background-color: rgb(154, 1, 42)/* Цвет при наведении */
+}
+
+QPushButton:pressed {
+    background-color: rgb(154, 1, 42);   /* Цвет при нажатии */
+}</string>
+   </property>
+   <property name="text">
+    <string>ДАЛЕЕ</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="countLabel">
+   <property name="geometry">
+    <rect>
+     <x>100</x>
+     <y>440</y>
+     <width>181</width>
+     <height>71</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color:white</string>
+   </property>
+   <property name="text">
+    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;br/&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

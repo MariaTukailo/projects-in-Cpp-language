@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>VerificationCorrectness</class>
+ <widget class="QDialog" name="VerificationCorrectness">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1385</width>
+    <height>889</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: lightbblack;</string>
+  </property>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>0</y>
+     <width>1331</width>
+     <height>261</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:15pt; font-weight:600; color:#ff0000;&quot;&gt;ПРОВЕРКА ПРАВИЛЬНОСТИ РАССТАНОВКИ СИГНАЛИЗАЦИЙ&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_2">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>220</y>
+     <width>1331</width>
+     <height>641</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color:rgb(167, 167, 167)</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_3">
+   <property name="geometry">
+    <rect>
+     <x>60</x>
+     <y>250</y>
+     <width>551</width>
+     <height>131</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color:rgb(125, 125, 125);</string>
+   </property>
+   <property name="text">
+    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:12pt; font-weight:600; color:#ff5500;&quot;&gt;Выберите тип извещателя:&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+   </property>
+  </widget>
+  <widget class="QRadioButton" name="DYM">
+   <property name="geometry">
+    <rect>
+     <x>630</x>
+     <y>260</y>
+     <width>671</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(125, 125, 125);
+
+    color: rgb(255, 85, 0);
+    font-size: 25px;
+    font-weight: bold;
+    font-family: Arial;</string>
+   </property>
+   <property name="text">
+    <string>ДЫМОВОЙ</string>
+   </property>
+  </widget>
+  <widget class="QRadioButton" name="Teplovoy">
+   <property name="geometry">
+    <rect>
+     <x>630</x>
+     <y>330</y>
+     <width>671</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(125, 125, 125);
+
+    color: rgb(255, 85, 0);
+    font-size: 25px;
+    font-weight: bold;
+    font-family: Arial;</string>
+   </property>
+   <property name="text">
+    <string>ТЕПЛОВОЙ</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="doneButton">
+   <property name="geometry">
+    <rect>
+     <x>60</x>
+     <y>400</y>
+     <width>1071</width>
+     <height>151</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton {
+    background-color: green;
+    color: black;
+    font-weight: bold;        /* Жирный */
+    font-size: 20px;         /* Размер */
+    font-family: Arial;      /* Шрифт (опционально) */
+    border: 2px solid green;
+    border-radius: 5px;
+    padding: 10px;
+}
+QPushButton:hover {
+    background-color: rgb(54, 102, 46)/* Цвет при наведении */
+}
+
+QPushButton:pressed {
+    background-color:rgb(54, 102, 46);   /* Цвет при нажатии */
+}</string>
+   </property>
+   <property name="text">
+    <string>ПРОВЕРИТЬ РАССТАНОВКУ ИЗВЕЩАТЕЛЕЙ</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="TIME">
+   <property name="geometry">
+    <rect>
+     <x>60</x>
+     <y>580</y>
+     <width>1241</width>
+     <height>141</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color:white</string>
+   </property>
+   <property name="text">
+    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;br/&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="doneButton_2">
+   <property name="geometry">
+    <rect>
+     <x>60</x>
+     <y>750</y>
+     <width>1081</width>
+     <height>91</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton {
+    background-color: red;
+    color: black;
+    font-weight: bold;        /* Жирный */
+    font-size: 20px;         /* Размер */
+    font-family: Arial;      /* Шрифт (опционально) */
+    border: 2px solid red;
+    border-radius: 5px;
+    padding: 10px;
+}
+QPushButton:hover {
+    background-color: rgb(154, 1, 42)/* Цвет при наведении */
+}
+
+QPushButton:pressed {
+    background-color: rgb(154, 1, 42);   /* Цвет при нажатии */
+}</string>
+   </property>
+   <property name="text">
+    <string>ДАЛЕЕ</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="TIME_2">
+   <property name="geometry">
+    <rect>
+     <x>1160</x>
+     <y>400</y>
+     <width>141</width>
+     <height>151</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color:white</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="pixmap">
+    <pixmap>../галочка2.png</pixmap>
+   </property>
+  </widget>
+  <widget class="QLabel" name="TIME_3">
+   <property name="geometry">
+    <rect>
+     <x>1160</x>
+     <y>750</y>
+     <width>141</width>
+     <height>91</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color:white</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="pixmap">
+    <pixmap>../стрелка.png</pixmap>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

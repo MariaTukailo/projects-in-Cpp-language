@@ -1,0 +1,17 @@
+release/automaticplacement.o
+release/choicemode.o
+release/detector.o
+release/detectorparameters.o
+release/firetime.o
+release/main.o
+release/mainwindow.o
+release/room.o
+release/secondwindow.o
+release/verificationcorrectness.o
+release/moc_automaticplacement.o
+release/moc_choicemode.o
+release/moc_detectorparameters.o
+release/moc_firetime.o
+release/moc_mainwindow.o
+release/moc_secondwindow.o
+release/moc_verificationcorrectness.o

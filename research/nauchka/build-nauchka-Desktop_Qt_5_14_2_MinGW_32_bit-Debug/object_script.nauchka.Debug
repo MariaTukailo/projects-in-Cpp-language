@@ -1,0 +1,17 @@
+debug/automaticplacement.o
+debug/choicemode.o
+debug/detector.o
+debug/detectorparameters.o
+debug/firetime.o
+debug/main.o
+debug/mainwindow.o
+debug/room.o
+debug/secondwindow.o
+debug/verificationcorrectness.o
+debug/moc_automaticplacement.o
+debug/moc_choicemode.o
+debug/moc_detectorparameters.o
+debug/moc_firetime.o
+debug/moc_mainwindow.o
+debug/moc_secondwindow.o
+debug/moc_verificationcorrectness.o

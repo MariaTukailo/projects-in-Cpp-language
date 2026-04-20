@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>DetectorParameters</class>
+ <widget class="QDialog" name="DetectorParameters">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1496</width>
+    <height>1064</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: lightbblack;</string>
+  </property>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>180</x>
+     <y>0</y>
+     <width>1161</width>
+     <height>261</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:22pt; font-weight:600; color:red;&quot;&gt;ВВЕДИТЕ ДАННЫЕ
+ИЗВЕЩАТЕЛЕЙ &lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_2">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>270</y>
+     <width>1451</width>
+     <height>751</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color:rgb(167, 167, 167)</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_8">
+   <property name="geometry">
+    <rect>
+     <x>50</x>
+     <y>310</y>
+     <width>461</width>
+     <height>111</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color:rgb(125, 125, 125);
+</string>
+   </property>
+   <property name="text">
+    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:7pt; font-weight:600; color:#ff5500;&quot;&gt;ВВЕДИТЕ КОЛИЧЕСТВО ИЗВЕЩАТЕЛЕЙ&lt;/span&gt;&lt;/p&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:7pt;&quot;&gt;&lt;br/&gt;&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="contDetectors">
+   <property name="geometry">
+    <rect>
+     <x>530</x>
+     <y>310</y>
+     <width>731</width>
+     <height>111</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color:rgb(255, 255, 255);</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton">
+   <property name="geometry">
+    <rect>
+     <x>1280</x>
+     <y>310</y>
+     <width>161</width>
+     <height>111</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton {
+    background-color: red;
+    color: black;
+    font-weight: bold;        /* Жирный */
+    font-size: 20px;         /* Размер */
+    font-family: Arial;      /* Шрифт (опционально) */
+    border: 2px solid red;
+    border-radius: 5px;
+    padding: 10px;
+}
+QPushButton:hover {
+    background-color: rgb(154, 1, 42)/* Цвет при наведении */
+}
+
+QPushButton:pressed {
+    background-color: rgb(154, 1, 42);   /* Цвет при нажатии */
+}</string>
+   </property>
+   <property name="text">
+    <string>ВВОД</string>
+   </property>
+  </widget>
+  <widget class="QWidget" name="coordinatesWidget" native="true">
+   <property name="geometry">
+    <rect>
+     <x>50</x>
+     <y>449</y>
+     <width>1381</width>
+     <height>461</height>
+    </rect>
+   </property>
+   <property name="toolTipDuration">
+    <number>-2</number>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: white;
+</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="doneButton">
+   <property name="geometry">
+    <rect>
+     <x>49</x>
+     <y>921</y>
+     <width>1381</width>
+     <height>81</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton {
+    background-color: red;
+    color: black;
+    font-weight: bold;        /* Жирный */
+    font-size: 20px;         /* Размер */
+    font-family: Arial;      /* Шрифт (опционально) */
+    border: 2px solid red;
+    border-radius: 5px;
+    padding: 10px;
+}
+QPushButton:hover {
+    background-color: rgb(154, 1, 42)/* Цвет при наведении */
+}
+
+QPushButton:pressed {
+    background-color: rgb(154, 1, 42);   /* Цвет при нажатии */
+}</string>
+   </property>
+   <property name="text">
+    <string>ГОТОВО</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
